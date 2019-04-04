@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".calendarview.CalendarViewDialoPickerFragment">
+
+
+    <TextView
+        android:id="@+id/tx_one_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Dialog Calendar View Picker"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tx_selected_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"/>
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_oneDayPicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:text="One Day Picker Dialog"
+        android:textColor="@android:color/white" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_manyDayPicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:text="Many Days Picker Dialog"
+        android:textColor="@android:color/white" />
+
+</android.support.v7.widget.LinearLayoutCompat>

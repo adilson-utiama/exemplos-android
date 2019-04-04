@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".calendarview.CalendarViewLayoutCalendarPickerFragment">
+
+    <TextView
+        android:id="@+id/tx_many_days"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:text="Layout Calendar Picker"/>
+
+
+    <com.applandeo.materialcalendarview.CalendarView
+        android:id="@+id/calendarView_manyDaysPicker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:type="one_day_picker">
+
+    </com.applandeo.materialcalendarview.CalendarView>
+
+</android.support.v7.widget.LinearLayoutCompat>

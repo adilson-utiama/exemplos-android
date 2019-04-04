@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="me.indiandollar.apps.todoappcollectionwidget">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity"
+                  android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".DetailsActivity" android:parentActivityName=".MainActivity">
+        </activity>
+
+
+        <receiver
+            android:name=".AppWidget.SimpleAppWidgetProvider"
+            android:label="@string/title_simple_widget" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="me.indiandollar.apps.todoappcollectionwidget.app.ACTION_DATA_UPDATED" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                       android:resource="@xml/simple_widget" />
+        </receiver>
+
+
+        <receiver
+            android:name=".AppWidget.CollectionAppWidgetProvider"
+            android:label="@string/title_collection_widget" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="me.indiandollar.apps.todoappcollectionwidget.app.ACTION_DATA_UPDATED" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                       android:resource="@xml/collection_widget" />
+        </receiver>
+
+        <provider
+            android:authorities="me.indiandollar.apps.todoappcollectionwidget"
+            android:name="me.indiandollar.apps.todoappcollectionwidget.MyContentProvider"
+            android:exported="false"/>
+
+        <!-- Note the special permission android.permission.BIND_REMOTEVIEWS.
+        This lets the system bind your service to create the widget views for each row
+        and prevents other apps from accessing your widget’s data. -->
+        <service android:name=".AppWidget.MyWidgetRemoteViewsService"
+                 android:permission="android.permission.BIND_REMOTEVIEWS" />
+    </application>
+
+</manifest>

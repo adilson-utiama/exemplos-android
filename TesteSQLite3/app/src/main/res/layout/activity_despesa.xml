@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.DespesaActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayoutDescricao"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32999998">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/campo_descricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descrição"
+            android:inputType="textCapSentences" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/campo_spinner"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:focusable="true"
+        android:theme="@style/SpinnerCustom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textInputLayoutDescricao"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayoutDescricao"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutDescricao"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayoutValor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/campo_data"
+        app:layout_constraintStart_toStartOf="@+id/campo_spinner"
+        app:layout_constraintTop_toBottomOf="@+id/campo_spinner"
+        app:layout_constraintVertical_bias="0.060000002">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/campo_valor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Valor"
+            android:inputType="numberDecimal" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/campo_data"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/campo_spinner"
+        app:layout_constraintStart_toEndOf="@+id/textInputLayoutValor"
+        app:layout_constraintTop_toBottomOf="@+id/campo_spinner"
+        app:layout_constraintVertical_bias="0.110000014" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_salvar"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Salvar"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:focusable="true"
+        android:elevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutValor"
+        app:layout_constraintVertical_bias="0.53" />
+
+
+
+</android.support.constraint.ConstraintLayout>

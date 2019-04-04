@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:fillViewport="true"
+		android:fitsSystemWindows="true"
+		tools:context=".MainActivity">
+
+	<android.support.constraint.ConstraintLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+		<Button
+				android:text="Face Mapping"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:background="@color/colorPrimary"
+				android:textColor="@android:color/white"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintEnd_toEndOf="parent"
+				android:id="@+id/btn_face_mapping"
+				android:layout_marginTop="24dp"
+				app:layout_constraintTop_toTopOf="parent"
+				android:layout_marginLeft="32dp"
+				android:layout_marginStart="32dp"
+				android:layout_marginEnd="32dp"
+				android:layout_marginRight="32dp"/>
+		<Button
+				android:text="Face Tracker"
+				android:layout_width="0dp"
+				android:background="@color/colorPrimary"
+				android:textColor="@android:color/white"
+				android:layout_height="wrap_content"
+				android:id="@+id/btn_face_tracker"
+				android:layout_marginTop="24dp"
+				app:layout_constraintTop_toBottomOf="@+id/btn_face_mapping"
+				app:layout_constraintStart_toStartOf="@+id/btn_face_mapping"
+				app:layout_constraintEnd_toEndOf="@+id/btn_face_mapping"/>
+		<Button
+				android:text="Face MultiTracker"
+				android:layout_width="0dp"
+				android:background="@color/colorPrimary"
+				android:textColor="@android:color/white"
+				android:layout_height="wrap_content"
+				android:id="@+id/btn_multi_tracker"
+				android:layout_marginTop="24dp"
+				app:layout_constraintTop_toBottomOf="@+id/btn_face_tracker"
+				app:layout_constraintStart_toStartOf="@+id/btn_face_tracker"
+				app:layout_constraintEnd_toEndOf="@+id/btn_face_tracker"/>
+		<Button
+				android:text="OCR Reader"
+				android:layout_width="0dp"
+				android:background="@color/colorPrimary"
+				android:textColor="@android:color/white"
+				android:layout_height="wrap_content"
+				android:id="@+id/btn_ocr_reader"
+				android:layout_marginTop="24dp"
+				app:layout_constraintTop_toBottomOf="@+id/btn_multi_tracker"
+				app:layout_constraintStart_toStartOf="@+id/btn_multi_tracker"
+				app:layout_constraintEnd_toEndOf="@+id/btn_multi_tracker"/>
+		<Button
+				android:text="Google Eye"
+				android:layout_width="0dp"
+				android:background="@color/colorPrimary"
+				android:textColor="@android:color/white"
+				android:layout_height="wrap_content"
+				android:id="@+id/btn_google_eye"
+				android:layout_marginTop="24dp"
+				app:layout_constraintTop_toBottomOf="@+id/btn_ocr_reader"
+				app:layout_constraintEnd_toEndOf="@+id/btn_ocr_reader"
+				app:layout_constraintStart_toStartOf="@+id/btn_ocr_reader"/>
+		<Button
+				android:text="Barcode Scanner"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:id="@+id/btn_barcode_scanner"
+				android:background="@color/colorPrimary"
+				android:textColor="@android:color/white"
+				android:layout_marginTop="24dp"
+				app:layout_constraintTop_toBottomOf="@+id/btn_google_eye"
+				app:layout_constraintStart_toStartOf="@+id/btn_google_eye"
+				app:layout_constraintEnd_toEndOf="@+id/btn_google_eye"/>
+	</android.support.constraint.ConstraintLayout>
+
+</android.support.v4.widget.NestedScrollView>

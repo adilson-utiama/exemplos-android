@@ -1,0 +1,114 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:2:1-33:12
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-alpha3] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\constraint-layout-2.0.0-alpha3.aar\14f7befc1181927cba4c67fd2653bc65\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\5033d5f37f41d52e9f0f3c1dbd3ede7c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\6215aa851b86d837df6f825c58ec3d6f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\a91bfb93989ddd173d0eb39c7800273c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\ee4f5c2c579bbbebf1ae280a5e0163de\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\17ecadc3573ba1be5dfb1ce57b84a7b3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\f62cdbce79848344f0e4b12f36312713\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\daee0e2d53731d87c1e510b6e916a2d5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\6a8c5afc6c8da280c0bb79cdc8342707\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\cddb3cb775f466f7a7967e6148742a6e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\733d163da003f9b5d45241be4cda0209\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a685845498b46317c925a89f0a4be37e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d9820632779e09899947b9b2e945e9da\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:2:1-33:12
+	package
+		ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:4:11-52
+		INJECTED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:3:11-57
+	xmlns:android
+		ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:6:5-31:19
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-alpha3] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\constraint-layout-2.0.0-alpha3.aar\14f7befc1181927cba4c67fd2653bc65\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-alpha3] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\constraint-layout-2.0.0-alpha3.aar\14f7befc1181927cba4c67fd2653bc65\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:6:18-45
+	tools:ignore
+		ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:7:18-57
+activity#com.example.android.stackwidget.MainActivity
+ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:8:9-15:20
+	android:theme
+		ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:9:9-47
+	android:name
+		ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:8:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:10:13-14:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:11:17-68
+	android:name
+		ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:11:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:13:17-76
+	android:name
+		ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:13:27-74
+receiver#com.example.android.stackwidget.StackWidgetProvider
+ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:17:9-25:20
+	android:name
+		ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:17:19-54
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:18:13-20:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:19:17-83
+	android:name
+		ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:19:25-81
+meta-data#android.appwidget.provider
+ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:22:13-24:58
+	android:resource
+		ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:24:17-56
+	android:name
+		ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:23:17-58
+service#com.example.android.stackwidget.StackWidgetService
+ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:27:9-30:71
+	android:exported
+		ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:29:13-37
+	android:permission
+		ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:30:13-69
+	android:name
+		ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml:28:13-47
+uses-sdk
+INJECTED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-alpha3] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\constraint-layout-2.0.0-alpha3.aar\14f7befc1181927cba4c67fd2653bc65\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-alpha3] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\constraint-layout-2.0.0-alpha3.aar\14f7befc1181927cba4c67fd2653bc65\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\5033d5f37f41d52e9f0f3c1dbd3ede7c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\5033d5f37f41d52e9f0f3c1dbd3ede7c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\6215aa851b86d837df6f825c58ec3d6f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\6215aa851b86d837df6f825c58ec3d6f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\a91bfb93989ddd173d0eb39c7800273c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\a91bfb93989ddd173d0eb39c7800273c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\ee4f5c2c579bbbebf1ae280a5e0163de\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\ee4f5c2c579bbbebf1ae280a5e0163de\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\17ecadc3573ba1be5dfb1ce57b84a7b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\17ecadc3573ba1be5dfb1ce57b84a7b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\f62cdbce79848344f0e4b12f36312713\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\f62cdbce79848344f0e4b12f36312713\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\daee0e2d53731d87c1e510b6e916a2d5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\daee0e2d53731d87c1e510b6e916a2d5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\6a8c5afc6c8da280c0bb79cdc8342707\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\6a8c5afc6c8da280c0bb79cdc8342707\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\cddb3cb775f466f7a7967e6148742a6e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\cddb3cb775f466f7a7967e6148742a6e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\733d163da003f9b5d45241be4cda0209\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\733d163da003f9b5d45241be4cda0209\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a685845498b46317c925a89f0a4be37e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a685845498b46317c925a89f0a4be37e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d9820632779e09899947b9b2e945e9da\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Adilson\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d9820632779e09899947b9b2e945e9da\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Adilson\AndroidStudioProjects\MobileVisionApi\AppWidget\app\src\main\AndroidManifest.xml

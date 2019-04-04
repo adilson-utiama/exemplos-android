@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.asuprojects.mobilevisionsamples">
+
+	<uses-feature android:name="android.hardware.camera"/>
+
+	<uses-permission android:name="android.permission.CAMERA"/>
+
+	<application
+			android:allowBackup="true"
+			android:icon="@drawable/icon"
+			android:label="@string/app_name"
+			android:roundIcon="@drawable/icon"
+			android:supportsRtl="true"
+			android:theme="@style/AppTheme"
+			tools:ignore="GoogleAppIndexingWarning">
+		<activity android:name=".BarcodeMainActivity">
+		</activity>
+
+		<activity android:name=".barcodescanner.BarcodeCaptureActivity" />
+		<activity
+				android:name=".facetracker.FaceTrackerActivity"
+				android:screenOrientation="fullSensor"
+				android:theme="@style/Theme.AppCompat.NoActionBar"/>
+		<activity
+				android:name=".facemapping.photo.PhotoViewerActivity"
+				android:screenOrientation="fullSensor"
+				android:theme="@android:style/Theme.Black.NoTitleBar"/>
+		<activity
+				android:name=".multifacetracker.MultiTrackerActivity"
+				android:screenOrientation="fullSensor"
+				android:theme="@style/Theme.AppCompat.NoActionBar"/>
+		<activity android:name=".ocrreader.OcrCaptureActivity"/>
+		<activity
+				android:name=".googleeye.GooglyEyesActivity"
+				android:screenOrientation="fullSensor"
+				android:theme="@style/Theme.AppCompat.NoActionBar"/>
+		<activity android:name=".MainActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+	</application>
+
+</manifest>
